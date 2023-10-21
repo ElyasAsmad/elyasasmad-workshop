@@ -128,6 +128,20 @@ const contentExampleArray = [
       comments: 55,
     },
   },
+  {
+    id: "10",
+    name: "Takeya Genji",
+    username: "@nrmnqdds",
+    photoURL:
+      "https://italeemc.iium.edu.my/pluginfile.php/22336/user/icon/remui/f1?rev=136547",
+    content: "aku takkan tipu bro",
+    createdAt: "5 months",
+    data: {
+      likes: 420,
+      reposts: 69,
+      comments: 69,
+    },
+  },
 ];
 
 export async function GET(req: Request) {
